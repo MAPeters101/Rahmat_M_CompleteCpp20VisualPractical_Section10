@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+/*
 class Person {
 public:
 	Person();
@@ -13,7 +13,7 @@ private:
 	string ClassName{};
 
 };
-/*
+
 int main() {
 	Person NewPerson;
 	{
@@ -22,7 +22,7 @@ int main() {
 
 	return 0;
 }
-*/
+
 
 Person::Person() {
 	ClassName = "DefaultClass";
@@ -37,3 +37,5 @@ Person::Person(const string& Name) {
 Person::~Person() {
 	cout << "Destructor for class " << ClassName << endl;
 }
+
+*/
